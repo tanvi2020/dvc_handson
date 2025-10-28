@@ -11,6 +11,10 @@ df=pd.DataFrame(data)
 new_row_loc={'Name':'Suraj','Age':28,'City':'Pune'}
 df.loc[len(df.index)]=new_row_loc
 
+# Adding new row to df for version 3 
+new_row_loc2={'Name':'Vivan','Age':38,'City':'Indore'}
+df.loc[len(df.index)]=new_row_loc2
+
 data_dir='data' # Folder Name 
 os.makedirs(data_dir,exist_ok=True)
 
